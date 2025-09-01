@@ -18,7 +18,7 @@ namespace SimuladorContaBancaria {
             
             this.saldo = depositoinicial;
 
-            // Lógica da implementação dos dados aqui abaixo{}
+            // Lógica da implementação dos dados serão aplicados aqui abaixo{}
         }
 
         public void Depositar(double quantia) {
