@@ -11,9 +11,11 @@ namespace SimuladorContaBancaria {
         public ContaBancaria(int numero, string titular, double depositoinicial) { 
             this.numeroConta = numero;
             this.nomeTitular = titular;
+            
             if (depositoinicial < 0) { 
                 depositoinicial = 0;
             }
+            
             this.saldo = depositoinicial;
 
             // Lógica da implementação dos dados aqui abaixo{}
